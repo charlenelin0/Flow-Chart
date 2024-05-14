@@ -1,9 +1,64 @@
-<mxfile host="app.diagrams.net" modified="2024-05-14T08:55:20.330Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" version="24.4.0" etag="cGAq9NKipggJDBb69Xd-" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-14T09:31:11.840Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="GumS3C0GmVvsDCDByQZa" version="24.4.0" type="github">
   <diagram name="Page-1" id="jZXNMz4WzJzTNI9ce28J">
-    <mxGraphModel>
+    <mxGraphModel dx="794" dy="420" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="fw8dxi0j6lkaNrfg9gDa-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="fw8dxi0j6lkaNrfg9gDa-1" target="fw8dxi0j6lkaNrfg9gDa-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fw8dxi0j6lkaNrfg9gDa-1" value="CurrentInOut" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="1">
+          <mxGeometry x="110" y="360" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="fw8dxi0j6lkaNrfg9gDa-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fw8dxi0j6lkaNrfg9gDa-12" target="fw8dxi0j6lkaNrfg9gDa-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fw8dxi0j6lkaNrfg9gDa-12" value="EMPNO.ENDCODE is Null" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="260" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fw8dxi0j6lkaNrfg9gDa-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fw8dxi0j6lkaNrfg9gDa-16" target="fw8dxi0j6lkaNrfg9gDa-23">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="615" y="460" />
+              <mxPoint x="400" y="460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fw8dxi0j6lkaNrfg9gDa-16" value="v_salary1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="1">
+          <mxGeometry x="525" y="360" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fw8dxi0j6lkaNrfg9gDa-23" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;ul&gt;&lt;li&gt;INNER JOIN&amp;nbsp; v_salary1.EMP_NO = CurrentInout.EMP_NO&lt;/li&gt;&lt;li&gt;&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial; text-align: center;&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="520" width="440" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="fw8dxi0j6lkaNrfg9gDa-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fw8dxi0j6lkaNrfg9gDa-28" target="fw8dxi0j6lkaNrfg9gDa-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fw8dxi0j6lkaNrfg9gDa-28" value="V_SALARY" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="1">
+          <mxGeometry x="450" y="40" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fw8dxi0j6lkaNrfg9gDa-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fw8dxi0j6lkaNrfg9gDa-29" target="fw8dxi0j6lkaNrfg9gDa-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fw8dxi0j6lkaNrfg9gDa-44" value="&amp;nbsp; LEFT JOIN&amp;nbsp;&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="fw8dxi0j6lkaNrfg9gDa-42">
+          <mxGeometry x="0.6045" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fw8dxi0j6lkaNrfg9gDa-29" value="non_timesht_adj AS a&lt;div&gt;&lt;br&gt;ITEM_NO=&#39;D2&#39; or ITEM_NO=&#39;T2&#39;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="1">
+          <mxGeometry x="620" y="40" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fw8dxi0j6lkaNrfg9gDa-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fw8dxi0j6lkaNrfg9gDa-30" target="fw8dxi0j6lkaNrfg9gDa-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fw8dxi0j6lkaNrfg9gDa-30" value="EMPNO" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="1">
+          <mxGeometry x="135" y="180" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fw8dxi0j6lkaNrfg9gDa-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fw8dxi0j6lkaNrfg9gDa-39" target="fw8dxi0j6lkaNrfg9gDa-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fw8dxi0j6lkaNrfg9gDa-39" value="&lt;div&gt;(V_SALARY.year = a.YEAR) AND&amp;nbsp;&lt;br&gt;&lt;/div&gt;&lt;div&gt;(V_SALARY.MONTH = a.MONTH) AND&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;(V_SALARY.EMP_NO = a.EMP_NO) AND&lt;/span&gt;&lt;/div&gt;iif(&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;v_salary.org_yr_mon=&#39;&amp;nbsp; &amp;nbsp; &amp;nbsp;&#39;,&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;v_salary.year+v_salary.month, &lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;v_salary.org_yr_mon) = a.ORG_YR_MON&amp;nbsp;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=default;perimeterSpacing=0;" vertex="1" parent="1">
+          <mxGeometry x="475" y="172" width="280" height="140" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
