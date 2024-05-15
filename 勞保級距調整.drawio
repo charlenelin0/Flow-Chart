@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-15T01:53:38.637Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="5eOqQ2EAgsFZ6MLoXa68" version="24.4.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-05-15T02:07:36.508Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="BNHi3E0Dh1TNd2fjcfAw" version="24.4.0" type="github" pages="2">
   <diagram name="Main" id="jZXNMz4WzJzTNI9ce28J">
     <mxGraphModel dx="794" dy="420" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -53,14 +53,17 @@
         <mxCell id="v7h190LcoUOUSyMhHTsk-16" value="&lt;font face=&quot;Tahoma&quot;&gt;allemp_3monavgsalary&lt;/font&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#fad9d5;strokeColor=#ae4132;" vertex="1" parent="1">
           <mxGeometry x="240" y="320" width="180" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="v7h190LcoUOUSyMhHTsk-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="v7h190LcoUOUSyMhHTsk-23" target="v7h190LcoUOUSyMhHTsk-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="v7h190LcoUOUSyMhHTsk-23" value="&lt;font face=&quot;Tahoma&quot;&gt;GET CUR LEVEL / EFF DATE&lt;/font&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="1">
-          <mxGeometry x="240" y="430" width="200" height="90" as="geometry" />
+          <mxGeometry x="245" y="450" width="180" height="90" as="geometry" />
         </mxCell>
         <mxCell id="v7h190LcoUOUSyMhHTsk-24" value="&lt;font face=&quot;Tahoma&quot;&gt;nhi_emp_fee_level&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="v7h190LcoUOUSyMhHTsk-23">
-          <mxGeometry y="30" width="200" height="30" as="geometry" />
+          <mxGeometry y="30" width="180" height="30" as="geometry" />
         </mxCell>
         <mxCell id="v7h190LcoUOUSyMhHTsk-25" value="&lt;font face=&quot;Tahoma&quot;&gt;lo_emp_fee_level&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="v7h190LcoUOUSyMhHTsk-23">
-          <mxGeometry y="60" width="200" height="30" as="geometry" />
+          <mxGeometry y="60" width="180" height="30" as="geometry" />
         </mxCell>
         <mxCell id="v7h190LcoUOUSyMhHTsk-29" value="&lt;font face=&quot;Tahoma&quot;&gt;LI_ANNUAL_ADJboct&lt;br&gt;LI_ANNUAL_ADJbipct&lt;br&gt;LI_ANNUAL_ADJbltdt&lt;/font&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#fad9d5;strokeColor=#ae4132;" vertex="1" parent="1">
           <mxGeometry x="240" y="220" width="200" height="50" as="geometry" />
@@ -70,6 +73,31 @@
         </mxCell>
         <mxCell id="v7h190LcoUOUSyMhHTsk-35" value="&lt;span style=&quot;font-family: Tahoma;&quot;&gt;all_renew_allemp_3monavgsalary&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d0cee2;strokeColor=#56517e;" vertex="1" parent="1">
           <mxGeometry x="480" y="315" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="v7h190LcoUOUSyMhHTsk-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="v7h190LcoUOUSyMhHTsk-46" target="v7h190LcoUOUSyMhHTsk-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v7h190LcoUOUSyMhHTsk-60" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;舊制&lt;/b&gt;&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="v7h190LcoUOUSyMhHTsk-59">
+          <mxGeometry x="-0.1917" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v7h190LcoUOUSyMhHTsk-46" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;新 / 舊制&lt;/b&gt;&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="235" y="570" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="v7h190LcoUOUSyMhHTsk-58" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b style=&quot;&quot;&gt;不含 OT &amp;lt;= 勞保最高級距&lt;/b&gt;&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="435" y="680" width="280" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="v7h190LcoUOUSyMhHTsk-62" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="710" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="v7h190LcoUOUSyMhHTsk-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.46;entryY=-0.008;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="v7h190LcoUOUSyMhHTsk-46" target="v7h190LcoUOUSyMhHTsk-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v7h190LcoUOUSyMhHTsk-64" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;新制&lt;/b&gt;&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="v7h190LcoUOUSyMhHTsk-63">
+          <mxGeometry x="-0.589" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
